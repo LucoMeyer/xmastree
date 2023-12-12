@@ -6,6 +6,8 @@ from rpi_ws281x import *
 from rpi_ws281x import Color
 from rpi_ws281x import Adafruit_NeoPixel
 
+
+
 class RGB:
 	def __init__(self, red, green, blue):
 		self.red = red
